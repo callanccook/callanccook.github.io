@@ -1,0 +1,77 @@
+/*begin calculator page*/
+
+#calculator {
+  height: 300px;
+  max-width: 300px;
+  max-height: 600px;
+  background-color: #250163;
+  width: 80%;
+  margin: auto;
+  display: block;
+  position: static;
+  border-radius: 10px;
+  border: 5px solid green;
+  box-shadow: 10px 10px 5px black;
+
+}
+
+body {
+  background-image: url('../img/brickwall.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  padding-right: auto;
+  padding-left: auto;
+  padding-top: 100px;
+}
+
+.col-xs-3 {
+  padding: 0px;
+  margin-left: 2px;
+  margin-right: 2px;
+  background-color: #aaaaaa;
+  border-radius: 5px;
+  border: 2px solid pink;
+  width: 23%;
+  padding-top: 10px;
+}
+
+.col-xs-3:hover {
+  background-color: #808182;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  color: black;
+  font-family: Montserrat, Arial, sans-serif;
+}
+
+.screen {
+  padding: 0px;
+  background: white;
+  border-radius: 5px;
+  border: 2px solid pink;
+  width: 100%;
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -5px;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
