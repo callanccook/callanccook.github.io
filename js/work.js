@@ -12,7 +12,7 @@ var works = [
   {
     title: "Rock, Paper, Scissors (Ruby)", 
     pic: "img/rockpaperscissors.jpg",
-    url: "#work"
+    url: "https://github.com/callanccook/callanccook.github.io/blob/master/project/rps.rb"
   }, 
   {
     title: "Rock, Paper, Scissors (JavaScript)", 

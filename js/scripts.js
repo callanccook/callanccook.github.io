@@ -102,12 +102,9 @@ $(document).ready(function() {
         $(".info", this).hide();
       });
 
-      var images = $("#work1 img");
-      if (i%2 === 0) {
+      var images = $("#work1 img"); {
         $(images[i]).css("border", "2px solid #223451");
-      } else {
-        $(images[i]).css("border", "2px solid #223451")
-      }
+      } 
     };
 });
 
