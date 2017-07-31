@@ -87,23 +87,26 @@ $(document).ready(function() {
     //work section
     for (var i = 0; i < works.length; ++i ) {
       $("#work1").append("\
-        <div class='col-md-3 col-xs-8'>\
+        <div class='col-md-4 col-xs-8'>\
           <a href=' " + works[i].url + " ' class='work-img'>\
             <img src=' " + works[i].pic + " ' class='img-responsive' alt='mywork'>\
-            <span class='info'><p class='proj-title'>Title:</p> " + works[i].title + " \
+            <span class='info'> " + works[i].title + " \
             </span>\
           </a>\
         </div>\
         ");
 
       $(".work-img").mouseenter( function() {
-        $(".info", this).show();
+        $(".info", this).show(400);
+        $(".info").css("color", "red");
+        $(".info").css("font-weight", "900");
       }).mouseleave(function() {
         $(".info", this).hide();
       });
 
       var images = $("#work1 img"); {
         $(images[i]).css("border", "2px solid #223451");
+        $(images[i]).css("filter", "grayscale(100%)");
       } 
     };
 });

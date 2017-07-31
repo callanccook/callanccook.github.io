@@ -159,19 +159,21 @@ img {
 
 .info {
     position: absolute;
-    top: 30%;
-    left: 15%;
-    color: #fff;
+    top: 10%;
+    left: 10%;
+    color: red;
     font-family: Montserrat, Futura, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.5em;
-    line-height: 1.6;
+    line-height: 1.2;
     display: none;
+    font-size: 1.3em;
+
 }
 
 .proj-title {
-    font-weight: 100;
+    font-weight: 700;
 }
 
 /*end work*/
