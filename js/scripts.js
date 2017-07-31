@@ -33,6 +33,8 @@ $(document).ready(function() {
         $('[data-toggle="tooltip"]').tooltip();
     });
 
+    $('#top-image').stellar({});
+
     $("#contactpagebody").stellar({});
 
     $(function() {

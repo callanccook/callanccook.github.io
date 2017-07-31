@@ -555,3 +555,24 @@ footer {
 }
 
 /**** end footer ****/
+
+.header-image {
+    background: url('../img/desk.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 0px;
+    height: 700px;
+}
+
+.header-image>h1 {
+    font-family: Monteserrat, arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.1em;
+    margin-top: 0px;
+    padding-top: 200px;
+    font-size: 5em;
+    color: #c5cbd8;
+}
