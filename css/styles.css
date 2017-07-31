@@ -450,7 +450,7 @@ label {
 
 
 #about {
-    margin: 0px 50px;
+    margin: 10px auto;
 }
 
 /*tooltips*/
@@ -466,6 +466,15 @@ label {
 }
 
 /**** end About page ****/
+/*begin Linkedin*/
+
+#linkedin {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+/*end Linkedin*/
 /*breakpoints*/
 
 @media (max-width: 767px) {
@@ -533,15 +542,11 @@ label {
 }
 
 #twitter {
-    text-align: center;
+    text-align: right;
 }
 
 .twitter span:visited {
     color: yellow;
-}
-
-#facebook {
-    text-align: center;
 }
 
 footer {

@@ -99,7 +99,6 @@ $(document).ready(function() {
       $(".work-img").mouseenter( function() {
         $(".info", this).show(400);
         $(".info").css("color", "red");
-        $(".info").css("font-weight", "900");
       }).mouseleave(function() {
         $(".info", this).hide();
       });
