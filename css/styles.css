@@ -6,25 +6,25 @@ body {
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /*begin navbar*/
 
 .navbar {
-    background-color: #223451;
+  background-color: #223451;
 }
 
 .navbar a {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .navbar-inverse {
-    border: none;
+  border: none;
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: white;
+  color: white;
 }
 
 .navbar-inverse .navbar-nav>.active>a,
@@ -39,21 +39,21 @@ body {
 
 .navbar-inverse .navbar-nav>li>a:focus,
 .navbar-inverse .navbar-nav>li>a:hover {
-    outline: thin dotted;
-    transition: all 0.5s;
-    outline-offset: -10px;
+  outline: thin dotted;
+  transition: all 0.5s;
+  outline-offset: -10px;
 }
 
 .nav-tabs {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .nav-tabs>li>a:hover {
-    border-color: transparent;
+  border-color: transparent;
 }
 
 .home {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .home:hover {
@@ -63,30 +63,30 @@ body {
 }
 
 .home a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 /*end navbar*/
 /*begin index*/
 
 .carousel {
-    margin-left: -15px;
-    margin-right: -15px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .carousel-caption h3 {
-    font-family: Montserrat, Arial, sans-serif;
-    color: white;
+  font-family: Montserrat, Arial, sans-serif;
+  color: white;
 }
 
 .carousel-caption p {
-    font-family: Arvo, Futura, Georgia, serif;
-    color: white;
+  font-family: Arvo, Futura, Georgia, serif;
+  color: white;
 }
 
 .carousel img {
-    border-radius: 0px;
+  border-radius: 0px;
 }
 
 .row {
@@ -94,20 +94,20 @@ body {
 }
 
 .row p {
-    font-family: Arvo, Futura, Georgia, serif;
+  font-family: Arvo, Futura, Georgia, serif;
 }
 
 .row h2 {
-    font-family: Montserrat, Arial, sans-serif;
+  font-family: Montserrat, Arial, sans-serif;
 }
 
 h1 {
-    font-family: Montserrat, Arial, sans-serif;
+  font-family: Montserrat, Arial, sans-serif;
 }
 
 a {
-    color: #223451;
-    font-family: Montserrat, Arial, sans-serif;
+  color: #223451;
+  font-family: Montserrat, Arial, sans-serif;
 }
 
 /*end index*/
@@ -125,118 +125,118 @@ a {
 }
 
 .work {
-    margin: 30px 0px;
+  margin: 30px 0px;
 }
 
 .work h3 {
-    display: inline;
-    margin: 0;
-    margin-left: 25%;
-    position: absolute;
-    top: 50%;
-    color: white;
-    background-color: #223451;
-    transition: color 600ms;
-    padding: 3px;
+  display: inline;
+  margin: 0;
+  margin-left: 25%;
+  position: absolute;
+  top: 50%;
+  color: white;
+  background-color: #223451;
+  transition: color 600ms;
+  padding: 3px;
 }
 
 .work h3:hover {
-    color: #ff0000;
-    text-decoration: none;
+  color: #ff0000;
+  text-decoration: none;
 }
 
 .work-img {
-    display: block;
-    margin: auto;
-    max-width: 200px;
-    max-height: 200px;
-    position: relative;
+  display: block;
+  margin: auto;
+  max-width: 200px;
+  max-height: 200px;
+  position: relative;
 }
 
 img {
-    border-radius: 10%;
+  border-radius: 10%;
 }
 
 .info {
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    color: red;
-    font-family: Montserrat, Futura, Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0.5em;
-    line-height: 1.2;
-    display: none;
-    font-size: 1.3em;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: red;
+  font-family: Montserrat, Futura, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5em;
+  line-height: 1.2;
+  display: none;
+  font-size: 1.3em;
 
 }
 
 .proj-title {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 /*end work*/
 /**** begin Contact page ****/
 
 #contactpagebody {
-    background-image: url('../img/geometricfull.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    width: 100%;
-    padding-bottom: 100px;
+  background-image: url('../img/geometricfull.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 100px;
 }
 
 #contact1 {
-    padding-left: 50px;
+  padding-left: 50px;
 }
 
 #contact2 {
-    padding-top: 250px;
-    padding-left: 200px;
+  padding-top: 250px;
+  padding-left: 200px;
 }
 
 label {
-    color: #2b4163;
+  color: #2b4163;
 }
 
 .header {
-    padding: 20px 0px 30px 0px;
-    font-family: Montserrat, Futura, Helvetica, Arial, sans-serif;
-    color: #2b4163;
-    font-size: 1em;
-    text-transform: uppercase;
-    border: 5px dotted #2b4163;
-    margin-top: 75px;
+  padding: 20px 0px 30px 0px;
+  font-family: Montserrat, Futura, Helvetica, Arial, sans-serif;
+  color: #2b4163;
+  font-size: 1em;
+  text-transform: uppercase;
+  border: 5px dotted #2b4163;
+  margin-top: 75px;
 }
 
 .header h4 {
-    letter-spacing: 0.5em;
-    text-align: center;
-    padding: 0px;
+  letter-spacing: 0.5em;
+  text-align: center;
+  padding: 0px;
 }
 
 .header h1 {
-    font-size: 3em;
-    padding: 0px;
-    text-align: center;
+  font-size: 3em;
+  padding: 0px;
+  text-align: center;
 }
 
 .email {
-    padding: 20px 0px 20px 0px;
-    font-family: Arvo, Georgia, Baskerville, serif;
-    color: #2b4163;
-    font-size: 1em;
-    text-align: left;
+  padding: 20px 0px 20px 0px;
+  font-family: Arvo, Georgia, Baskerville, serif;
+  color: #2b4163;
+  font-size: 1em;
+  text-align: left;
 }
 
 .address {
-    padding: 20px 0px;
-    font-family: Arvo, Georgia, Baskerville, serif;
-    color: #2b4163;
-    font-size: 1em;
-    text-align: left;
+  padding: 20px 0px;
+  font-family: Arvo, Georgia, Baskerville, serif;
+  color: #2b4163;
+  font-size: 1em;
+  text-align: left;
 }
 
 .address h4 {
@@ -244,158 +244,155 @@ label {
 }
 
 .phone {
-    padding: 20px 0px;
-    font-family: Arvo, Georgia, Baskerville, serif;
-    color: #2b4163;
-    font-size: 1em;
-    text-align: left;
+  padding: 20px 0px;
+  font-family: Arvo, Georgia, Baskerville, serif;
+  color: #2b4163;
+  font-size: 1em;
+  text-align: left;
 }
 
 #map {
-    height: 400px;
-    width: 100%;
+  height: 400px;
+  width: 100%;
 }
 
 #visible-comment {
-    color: #223451;
+  color: #223451;
 }
 
 #visible-name {
-    color: #223451;
+  color: #223451;
 }
 
 #visible-phone {
-    color: #223451;
+  color: #223451;
 }
 
 #visible-email {
-    color: #223451;
+  color: #223451;
 }
 
 /*end contact page */
 /*begin form*/
 .btn-success, .btn-success:visited, .btn-success:focus {
-    background-color: #223451;
-    border-color: #223451;
+  background-color: #223451;
+  border-color: #223451;
 }
 
 .btn-success:hover, .btn-success:active, .btn-success:active:hover {
-    background-color: #888c93;
-    border-color: #888c93;
+  background-color: #888c93;
+  border-color: #888c93;
 }
 
 .form-control {
-    width: 80%;
+  width: 80%;
 }
 
 .submit {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 /*end form*/
 /**** begin FAQ page ****/
 
 #accordion {
-    padding-bottom: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
-    overflow: auto;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  overflow: auto;
 }
 
 .panel-default>.panel-heading {
-    color: #223451;
-    background-color: #c5cbd8;
-    border-color: #223451;
+  color: #223451;
+  background-color: #c5cbd8;
+  border-color: #223451;
 }
 
 .panel.body {
-    font-family: Rokkitt, Georgia, Baskerville, serif;
+  font-family: Rokkitt, Georgia, Baskerville, serif;
 }
 
 .panel-heading a {
-    font-weight: 700; 
+  font-weight: 700; 
 }
 
 .panel-heading a:active, .panel-heading a:hover {
-    color: red;
+  color: red;
+  transition: 0.5s;
 }
 
 .learn-more {
-    text-align: left;
-    float: left;
-    margin-top: 70px;
-    padding-bottom: 10px;
-    text-transform: uppercase;
+  text-align: center;
+  margin-top: 70px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .modal-button {
-    float: right;
-    padding: 15px;
-    margin-top: 50px;
+  float: right;
+  padding: 15px;
+  margin-top: 50px;
 }
 
 #modalembed {
-    height: 500px;
-    width: 100%;
-    padding: 10px;
+  height: 500px;
+  width: 100%;
+  padding: 10px;
 }
 
 .modal-header .close {
-    margin-top: -20px;
+  margin-top: -20px;
 }
-
-
-
 
 /**** end FAQ page ****/
 /**** begin About page ****/
 
 .container {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .image {
-    display: inline-block;
-    float: left;
-    width: 100%;
-    padding-right: 20px;
+  display: inline-block;
+  float: left;
+  width: 100%;
+  padding-right: 20px;
 }
 
 .main-text {
-    clear: both;
-    padding: 60px 10px;
-    display: block;
-    width: 90%;
-    color: #223451;
+  clear: both;
+  padding: 60px 10px;
+  display: block;
+  width: 90%;
+  color: #223451;
 }
 
 .main-text h3 {
-    text-align: left;
-    font-family: Montserrat, Futura, Helvetica, Arial, sans-serif;
+  text-align: left;
+  font-family: Montserrat, Futura, Helvetica, Arial, sans-serif;
 }
 
 .main-text p {
-    font-family: Arvo, Georgia, Baskerville, serif;
-    font-size: 1.25em;
+  font-family: Arvo, Georgia, Baskerville, serif;
+  font-size: 1.25em;
 }
 
 .about-me h1 {
-    font-family: Montserrat, Futura, Helvetica, Arial, sans-serif;
-    font-size: 3em;
-    text-transform: uppercase;
-    color: #223451;
-    letter-spacing: 0.05em;
-    text-align: center;
-    margin: 100px 0 80px;
+  font-family: Montserrat, Futura, Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+  color: #223451;
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin: 100px 0 80px;
 }
 
 .row li {
-    font-family: Arvo, Georgia, Baskerville, serif;
-    font-size: 1em;
-    line-height: 2;
-    color: #223451;
-    text-align: left;
+  font-family: Arvo, Georgia, Baskerville, serif;
+  font-size: 1em;
+  line-height: 2;
+  color: #223451;
+  text-align: left;
 }
 
 .intro {
@@ -403,176 +400,176 @@ label {
 }
 
 .intro p {
-    font-family: Arvo, Georgia, Baskerville, serif;
-    -webkit-margin-before: 0;
-    padding: 10px 80px;
-    font-size: 1.25em;
-    line-height: 2;
+  font-family: Arvo, Georgia, Baskerville, serif;
+  -webkit-margin-before: 0;
+  padding: 10px 80px;
+  font-size: 1.25em;
+  line-height: 2;
 }
 
 .intro h2 {
-    font-family: Montserrat, Futura, Helvetica, Arial, sans-serif;
-    font-size: 2em;
-    text-align: center;
+  font-family: Montserrat, Futura, Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  text-align: center;
 }
 
 #skill-list {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .skills {
-    text-align: center;
-    font-family: Arvo, Georgia, Baskerville, serif;
-    line-height: 1.5;
-    font-size: 1.25em;
-    background-color: #fff;
-    color: #223451;
-    padding: 60px 40px 270px 40px;
-    margin-top: 20px 0px;
+  text-align: center;
+  font-family: Arvo, Georgia, Baskerville, serif;
+  line-height: 1.5;
+  font-size: 1.25em;
+  background-color: #fff;
+  color: #223451;
+  padding: 60px 40px 270px 40px;
+  margin-top: 20px 0px;
 }
 
 .skills h3 {
-    font-family: Montserrat, Futura, Helvetica, sans-serif;
-    font-size: 1.5em;
+  font-family: Montserrat, Futura, Helvetica, sans-serif;
+  font-size: 1.5em;
 }
 
 .contact-me {
-    width: 100%;
-    color: #223451;
+  width: 100%;
+  color: #223451;
 }
 
 .contact-me h3 {
-    padding: 10px;
-    text-align: center;
-    background-color: #fff;
-    font-family: Montserrat, Futura, Helvetica, sans-serif;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+  font-family: Montserrat, Futura, Helvetica, sans-serif;
 }
 
 
 #about {
-    margin: 10px auto;
+  margin: 10px auto;
 }
 
 /*tooltips*/
 
 #school {
-    text-decoration: underline;
-    color: #223451;
-    font-family: Arvo, Georgia, Baskerville, serif;
+  text-decoration: underline;
+  color: #223451;
+  font-family: Arvo, Georgia, Baskerville, serif;
 }
 
 #school:hover {
-    color: red;
+  color: red;
 }
 
 /**** end About page ****/
 /*begin Linkedin*/
 
 #linkedin {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
 }
 
 /*end Linkedin*/
 /*breakpoints*/
 
 @media (max-width: 767px) {
-    .container {
-        width: 50%;
-        padding-left: 0px;
-        margin-left: 0px;
-    }
-    .intro p {
-        font-size: 0.5em;
-    }
+  .container {
+    width: 50%;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  .intro p {
+    font-size: 0.5em;
+  }
 }
 
 @media (max-width: 480px) {
-    .nav {
-        position: static;
-        margin: 10px 50px;
-        width: 50%;
-    }
-    .row {
-        width: 90%;
-    }
-    .contact-me {
-        margin-right: 50px;
-    }
+  .nav {
+    position: static;
+    margin: 10px 50px;
+    width: 50%;
+  }
+  .row {
+    width: 90%;
+  }
+  .contact-me {
+    margin-right: 50px;
+  }
 }
 
 @media (min-width: 900px) {
-    .carousel-caption h3 {
-        margin: 0px 250px;
-    }
-    .p-wrapper {
-        background: none;
-    }
-    .carousel-caption p {
-        margin: 0px 200px;
-    }
+  .carousel-caption h3 {
+    margin: 0px 250px;
+  }
+  .p-wrapper {
+    background: none;
+  }
+  .carousel-caption p {
+    margin: 0px 200px;
+  }
 }
 
 @media (max-width: 767px) {
-    .carousel {
-        margin-top: 100px;
-    }
-    .carousel-caption h3 {
-        text-align: center;
-    }
-    .row {
-        width: 75%;
-    }
+  .carousel {
+    margin-top: 100px;
+  }
+  .carousel-caption h3 {
+    text-align: center;
+  }
+  .row {
+    width: 75%;
+  }
 }
 
 @media (max-width: 480px) {
-    .row img {
-        margin: 50px 10px;
-    }
+  .row img {
+    margin: 50px 10px;
+  }
 }
 
 /*end breakpoints*/
 /**** begin footer ****/
 
 #copywright {
-    text-align: left;
-    color: #223451;
-    font-family: Montserrat, Arial, sans-serif;
+  text-align: left;
+  color: #223451;
+  font-family: Montserrat, Arial, sans-serif;
 }
 
 #twitter {
-    text-align: right;
+  text-align: right;
 }
 
 .twitter span:visited {
-    color: yellow;
+  color: yellow;
 }
 
 footer {
-    padding-top: 50px;
-    padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 /**** end footer ****/
 
-.header-image {
-    background: url('../img/desk.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: auto;
-    padding: 0px;
-    height: 700px;
+#top-image {
+  background: url('../img/desk.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  padding: 0px;
+  height: 700px;
 }
 
-.header-image>h1 {
-    font-family: Monteserrat, arial, sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    color: white;
-    letter-spacing: 0.1em;
-    margin-top: 0px;
-    padding-top: 200px;
-    font-size: 5em;
-    color: #c5cbd8;
+#top-image>h1 {
+  font-family: Monteserrat, arial, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.1em;
+  margin-top: 0px;
+  padding-top: 200px;
+  font-size: 5em;
+  color: #c5cbd8;
 }
