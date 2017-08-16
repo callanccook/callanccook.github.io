@@ -70,23 +70,15 @@ body {
 /*end navbar*/
 /*begin index*/
 
-.carousel {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-
-.carousel-caption h3 {
-  font-family: Montserrat, Arial, sans-serif;
-  color: white;
-}
-
-.carousel-caption p {
-  font-family: Arvo, Futura, Georgia, serif;
-  color: white;
-}
-
-.carousel img {
-  border-radius: 0px;
+.top-header p {
+  font-size: 3em;
+  text-align: center;
+  color: #223451;
+  font-family: Montserrat, Futura, Helvetica, Arial, sans-serif;
+  line-height: 1.3em;
+  text-transform: none;
+  margin-top: 200px;
+  margin-bottom: 150px;
 }
 
 .row {
@@ -176,6 +168,39 @@ img {
   font-weight: 700;
 }
 
+.fancy-cakes-header {
+  font-family: Montserrat, Futura, Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #223451;
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 75px;
+}
+
+.fancy-cakes-description p {
+  font-family: Arvo, Georgia, Baskerville, serif;
+  padding: 10px 80px;
+  font-size: 1em;
+  line-height: 2;
+  color: #223451;
+  text-align: center;
+}
+
+.fancy-cakes-links {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.fancy-cakes-links p {
+  display: inline-block;
+  margin: 10px;
+  color: #000;
+  font-size: 1.5em;
+}
 /*end work*/
 /**** begin Contact page ****/
 
@@ -403,7 +428,7 @@ label {
   font-family: Arvo, Georgia, Baskerville, serif;
   -webkit-margin-before: 0;
   padding: 10px 80px;
-  font-size: 1.25em;
+  font-size: 1em;
   line-height: 2;
 }
 
@@ -553,7 +578,7 @@ footer {
 
 /**** end footer ****/
 
-#top-image {
+/*#top-image {
   background: url('../img/desk.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -561,7 +586,7 @@ footer {
   padding: 0px;
   height: 700px;
 }
-
+*/
 #top-image>h1 {
   font-family: Monteserrat, arial, sans-serif;
   text-transform: uppercase;
